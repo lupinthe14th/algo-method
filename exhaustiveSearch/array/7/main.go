@@ -7,7 +7,7 @@ import (
 )
 
 func solution(n int, a []int) int {
-	m := 2>>31 - 1
+	m := -1 >> 31
 	memo := make(map[int]int, n)
 	max := func(x, y int) int {
 		if x > y {

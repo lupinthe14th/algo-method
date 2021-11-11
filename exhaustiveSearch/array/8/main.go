@@ -7,7 +7,7 @@ import (
 )
 
 func solution(n int, a []int) int {
-	out := 2<<31 - 1
+	out := 1<<31 - 1
 	min := func(x, y int) int {
 		if x < y {
 			return x

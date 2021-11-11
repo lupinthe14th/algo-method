@@ -12,7 +12,7 @@ func solution(n int, a []int) int {
 		memo[a[i]]++
 	}
 
-	max := -1<<31 - 1
+	max := -1 << 31
 	out := 0
 	for i := range memo {
 		if max < memo[i] {
